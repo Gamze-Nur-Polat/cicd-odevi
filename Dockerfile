@@ -1,5 +1,5 @@
 # 1. Aşama: Java çalışma ortamını seçiyoruz (Mac'inle uyumlu hafif bir sürüm)
-FROM openjdk:21-jdk-slim
+FROM eclipse-temurin:21-jdk-slim
 
 # 2. Aşama: Uygulamanın çalışacağı klasörü belirliyoruz
 WORKDIR /app
